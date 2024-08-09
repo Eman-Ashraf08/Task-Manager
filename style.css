@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #d4cece;
+}
+.completed {
+    text-decoration: line-through;
+    color: rgb(192, 199, 192);
+    font-weight: bold;
+}
+.edit-btn{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.complete-btn{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
